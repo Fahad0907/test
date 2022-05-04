@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Inter:wght@400;500;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.table-details{
+  @apply pt-[20px]  pb-[20px] text-starbuck font-inter font-medium text-base  tracking-[-0.01em];
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
