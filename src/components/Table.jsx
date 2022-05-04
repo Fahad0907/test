@@ -13,7 +13,7 @@ const Table = () => {
         <div className='w-full  bg-search border  border-neutral-2'>
           <p className='font-bold font-inter text-xl text-starbuck pl-[24px] pt-[16px] pb-[16px]'>Inventory</p>
         </div>
-        <div className='flex flex-col bg-white rounded md:ml-[24px] sm:ml-[8px] mt-[24px] sm:mr-[8px] md:mr-[24px] sm:mb-[36px] md:mb-[89px] lg:mb-[323px] shadow-[0_3px_5px_rgba(0,0,0,0.07)]'>
+        <div className='flex flex-col bg-white rounded md:ml-[24px] sm:ml-[8px] md:mt-[24px] sm:mt-[8px] sm:mr-[8px] md:mr-[24px] sm:mb-[36px] md:mb-[89px] lg:mb-[323px] shadow-[0_3px_5px_rgba(0,0,0,0.07)]'>
             <div className='flex justify-center bg-search rounded-lg sm:w-[342px] md:w-[392px] h-[40px] ml-[16px] mt-[24px] relative'>
               <img className='absolute top-[11.67px] left-[13.67px] h-[16.67px] w-[16.67px]' src={srch} alt="seach" />
               <input className='bg-search  rounded-lg focus:outline-none w-full pl-[40px]' type="text" placeholder='Search'/>
@@ -71,7 +71,7 @@ const Table = () => {
                       <td><p className='table-details lg:table-cell sm:hidden'>{data.details}</p></td>
                       {data.status === 'Alright' &&
                         <td className='flex'>
-                          <p className='table-details sm:hidden md:table-cell'>{data.status}</p>
+                          <p className='table-details sm:hidden md:table-cell '>{data.status}</p>
                           <p className='w-[8px] h-[8px] bg-success rounded-lg mt-[28px] ml-[8px]'></p>
                         </td>
                       }

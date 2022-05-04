@@ -25,7 +25,7 @@ module.exports = {
         'inter' : 'Inter'
       },
       screens: {
-        'sm': '375px',
+        'sm': '360px',
         
       },
     },

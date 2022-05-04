@@ -7,8 +7,8 @@ import Table from './Table';
 // md:h-screen sm:h-[72]
 const Sidebar = () => {
   return (
-    <div className='flex justify-start lg:flex-row  md:flex-row sm:flex-col-reverse h-full'>
-        <ul className='list-none mid:bg-search sm:bg-white md:bg-search  lg:w-[235px] md:w-[89px]  pr-[24px]  border  border-neutral-2 sm:flex  md:list-item sm:relative md:static'>
+    <div className='flex justify-start lg:flex-row  md:flex-row sm:flex-col-reverse  h-full'>
+        <ul className='list-none mid:bg-search sm:bg-white md:bg-search  lg:w-[235px] md:w-[89px]  pr-[24px]  border  border-neutral-2 sm:flex  md:list-item sm:relative md:static sm:shadow-[0_-4px_2px_rgba(0,0,0,0.09)] md:shadow-[0_0_0_rgba(0,0,0,0)]'>
             <li className='flex '>
                 <img className='sm:absolute  md:static sm:right-[85.39%] sm:mt-[20px]  md:mt-[34px] md:ml-[32.5px] h-[20px] w-[22.46px]'  src={dash} alt="dash" />
                 <p className='mt-[35.5px] ml-[9.04px] text-neutral font-inter font-medium text-sm  tracking-[0.02rem]  sm:invisible lg:visible'>Dashboard</p>
